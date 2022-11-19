@@ -1,4 +1,4 @@
-This project uses TypeScript for its source code. To compile it to JavaScript use ```npm run build```.
+This project uses TypeScript for its source code. To compile it to JavaScript, use ```npm run build```.
 
 For database this project uses MySQL with remote server. Since this is test assignment, ```.env``` file with data necessary
 to connect to the database is added to the repository. <br/><br/>
