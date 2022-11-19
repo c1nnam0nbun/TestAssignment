@@ -1,0 +1,27 @@
+{
+  "name": "testassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "seed": "node build/db/seeding.js",
+    "start": "node build/app.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^18.11.9"
+  }
+}
